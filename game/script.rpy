@@ -11,6 +11,7 @@ define David = Character("David")
 define Rose = Character("Rose")
 define Beth = Character("Beth")
 define Anne = Character("Anne")
+define Indra = Character("Indra")
 
 
 image bg kitchen: 
@@ -208,7 +209,7 @@ label start:
         Clarence "Yes, I had been away for quite some time in India."
         Detective "And what made you decide to come back at this time?"
         Clarence "... It felt like it was time to come back, that's all."
-        Detective ""
+        Detective "The timing just feels.. "
 
     label dining:
         scene bg dining
@@ -221,7 +222,8 @@ label start:
         "Benjamin starts leading you out. As you start heading out, Clara and the others arrive at the door."
         "Clara gives a stern look to Benjamin."
         Clara "Guests at the Smith house should be treated properly. What is this nonsense sending our guest away before breakfast? Do you have no manners?"
-        Benjamin "Sorry. Come, let us eat together."
+        Benjamin "Yes, mother."
+        Benjamin "Sorry. Let us eat first."
         Detective "What about the.."
         Benjamin "That can wait."
         "Benjamin sits and gestures towards the chair next to him."
@@ -246,24 +248,32 @@ label start:
         "You walk down towards the bottom of the stairs and bend down to take a closer look."
         "The smell of the cleaning solution is strong, but still not sufficient to cover the smell of the blood completely."
         "From the reports you had looked over at the police station, Otis' dead body had remained undiscovered until the next morning."
-        "Apparently it was quite normal for Otis to return late or even the next day due to his addiction to alcohol."
+        "Apparently it was quite normal for Otis to return late or even the next day due to his alcohol addiction"
         "Cause of death had not been confirmed but the officers at the station had already closed the file as accidental death."
          # More??
         "That's enough for today." 
         "You head back to your room."
     
     label clara_1:
-        "You walk upstairs looking for Clara. In the hallway, Anne is cleaning some vases and she tells you that Clara is her room."
-        "Otis and Clara's Room"
+        # scene bg upstairs
+        "You walk upstairs looking for Clara. In the hallway, Anne is cleaning some vases" 
+        Detective "Anne, do you know where Clara is?
+        Beth "I believe Clara is the family room."
+        Detective "Thanks."
+        "You head to the family room."
+        "Family Room"
         Detective "Mrs. Smith, may I bother you for a short while?"
         Clara "Yes, ofcourse. Come in"
         "Clara is sitting on a rocking chair staring at something in her hands. She looks up and gestures towards the sofa."
         Clara "Please, take a seat."
         Detective "Are those?..."
-        Clara "Just some old photos of us, he was such a gentleman when we first met."
+        Clara "Just some old photos, Otis was such a gentleman when we first met."
         # Clara talks about the time when Otis and her dated. Go to Memory Bubble
 
         Clara "Enough of me rambling."
+
+        "You walk towards the garden where Beth and Anne collecting flowers."
+        ""
 
     label parlor_3:
         scene bg parlor
@@ -275,7 +285,7 @@ label start:
         "Benjamin looks upset and gloomy"
 
     # SECOND DAY LUNCH
-    "Everyone is at the table  except for Benjamin. He had requested to eat in his room and complained about a headache."
+    "Everyone is at the table except for Benjamin. He had requested to eat in his room and complained about a headache."
     
     
     # Parlor
@@ -322,8 +332,118 @@ label start:
     menu decision5:
         "What should I do?"
         "Stay in the garden":
+            jump garden
         "Go to the kitchen":
+            jump kitchen
         "Go to the living room":
+            jump living room
+    
+    label garden:
+        "Although it would be bad to be in their way, it felt best to stay in case the situation escalates into something worse. You stand off to the side."
+        Benjamin "What's wrong with you? "
+        Clarence "..."
+        Benjamin "Can you even call yourself a father? You abandoned her.. you left her by herself??!"
+        Clarence "I didn't mean to! I just had to get back.."
+        "Clarence looks Benjamin in the eyes"
+        Clarence "I wanted to bring them here,I wanted them to live here with the family. I just needed some time to get ready."
+        Benjamin "Excuses... What kind of a man would leave his family behind."
+        Benjamin "I would never."
+        Benjamin "You're a failure as a father... as a husband as well."
+        "Clarence tenses up"
+        Clarence "And you aren't??"
+        Clarence "You think just because father liked you best, you'd give up on your wife and children."
+        "Benjamin grabs Clarence by the collar"
+        Benjamin "What you mean by that?"
+        "Clarence pushes Benjamin back"
+        Clarence "You didn't send Jackson and Carter to the war because you loved the country. Disregarded Vivian's pleas and broke her heart, all you wanted to do was please Pa."
+        Clarence "I don't want to hear no family advice from you."   
+        "Benjamin raises his fist and punches Clarence in the face, knocking him back."
+        Clarence "You..." 
+        "Clarence looks in disbelief, and gets back up to punch Benjamin"
+        "The two gets into a fight within seconds"     
+
+    label kitchen:
+        "You didn't feel it would be appropriate to be in the way of their family matters and head to the kitchen."
+        "Laura and the maids are tending to Indra"
+        Laura "You look awfully thin young miss, have you eaten yet?" 
+        Laura "Would you like some soup with bread?"
+        "Indra looks at Laura with distrust"
+        Indra "... No, thank you"
+        Laura "Well, would you like a cup of tea?"
+        "Indra stares at the door to the garden"
+        Indra "I want to speak with father.."
+        "Stomach growls"
+        "Indra looks down, her face flushed with embarassment."
+        "The maids giggle"
+        Laura "Beth. Anne. Heat up the soup and prepare some bread."
+        
+
+    label living room:
+        "You didn't feel it would be appropriate to be in the way of their family matters and decide to head back to the parlor.
+        "You walk into the parlor and hear David yelling, completely unaware that you had walked in"
+        David "What absurdity.. nonsense.. is this"
+        David "To think that uncle Clarence would commit such shameful acts."
+        Rose "Calm down Dave"
+        "Rose pats David on the back"
+        David "He's bringing shame to our family!! Our reputation ought to be ruined by him"
+        David "We're going to be the laughing stock of the whole town.."
+        Rose "I'm sure there will be a way... Clara won't accept it surely.."
+        David "Granma better kick them out of the house.. out of our family. That's the only way to cut ties with em"
+        "Rose nods in silence"
+                jump living room
+    
+    label garden:
+        "Although it would be bad to be in their way, it felt best to stay in case the situation escalates into something worse. You stand off to the side."
+        Benjamin "What's wrong with you? "
+        Clarence "..."
+        Benjamin "Can you even call yourself a father? You abandoned her.. you left her by herself??!"
+        Clarence "I didn't mean to! I just had to get back.."
+        "Clarence looks Benjamin in the eyes"
+        Clarence "I wanted to bring them here,I wanted them to live here with the family. I just needed some time to get ready."
+        Benjamin "Excuses... What kind of a man would leave his family behind."
+        Benjamin "I would never."
+        Benjamin "You're a failure as a father... as a husband as well."
+        "Clarence tenses up"
+        Clarence "And you aren't??"
+        Clarence "You think just because father liked you best, you'd give up on your wife and children."
+        "Benjamin grabs Clarence by the collar"
+        Benjamin "What you mean by that?"
+        "Clarence pushes Benjamin back"
+        Clarence "You didn't send Jackson and Carter to the war because you loved the country. Disregarded Vivian's pleas and broke her heart, all you wanted to do was please Pa."
+        Clarence "I don't want to hear no family advice from you."   
+        "Benjamin raises his fist and punches Clarence in the face, knocking him back."
+        Clarence "You..." 
+        "Clarence looks in disbelief, and gets back up to punch Benjamin"
+        "The two gets into a fight within seconds"     
+
+    label kitchen:
+        "You didn't feel it would be appropriate to be in the way of their family matters and head to the kitchen."
+        "Laura and the maids are tending to Indra"
+        Laura "You look awfully thin young miss, have you eaten yet?" 
+        Laura "Would you like some soup with bread?"
+        "Indra looks at Laura with distrust"
+        Indra "... No, thank you"
+        Laura "Well, would you like a cup of tea?"
+        "Indra stares at the door to the garden"
+        Indra "I want to speak with father.."
+        "Stomach growls"
+        "Indra looks down, her face flushed with embarassment."
+        "The maids giggle"
+        Laura "Beth. Anne. Heat up the soup and prepare some bread."
+        
+
+    label living room:
+        "You didn't feel it would be appropriate to be in the way of their family matters and decide to head back to the parlor.
+        "You walk into the parlor and hear David yelling, completely unaware that you had walked in"
+        David "What absurdity.. nonsense.. is this"
+        David "To think that uncle Clarence would commit such shameful acts."
+        Rose "Calm down Dave"
+        "Rose pats David on the back"
+        David "He's bringing shame to our family!! Our reputation ought to be ruined by him"
+        David "We're going to be the laughing stock of the whole town.."
+        Rose "I'm sure there will be a way... Clara won't accept it surely.."
+        David "Granma better kick them out of the house.. out of our family. That's the only way to cut ties with em"
+        "Rose nods in silence"
 
     # THIRD DAY
 
@@ -347,14 +467,13 @@ label start:
         "Laura is instructing the maids to clean up after dinner. She stands still, her gaze elsewhere. She seems to be lost in thought."
         "You clear your throat"
         # play sound "audio/clear_throat.mp3"
-        show hand at right
-        Detective "Pardon me, might I have a moment of your time?"
+        Detective "Pardon me, do you have a moment to speak?"
         "Laura looks over, a pause..."
         Laura "Yes, Ofcourse"
         "In the Hallway"
         # scene bg hallway
         # with fade
-        Detective "Please accept my heartfelt sympathies for your loss and I understand this is a trying period for you all. I have a few questions I wish to make."
+        Detective "Please accept my heartfelt sympathies for your loss and I understand this is a trying period for you all. I have a few questions if you don't mind."
         "Laura nods."
         
         menu questions_laura:
@@ -392,7 +511,7 @@ label start:
     label parlor_4:
         scene bg parlor
         "You head to the parlor"
-
+ 
     # This ends the game.
 
     return
