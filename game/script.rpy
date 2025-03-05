@@ -376,7 +376,9 @@ label start:
         "Indra looks down, her face flushed with embarassment."
         "The maids giggle"
         Laura "Beth. Anne. Heat up the soup and prepare some bread."
-        
+        "You hear ruckus and decide to head to the scene"
+        "Clarence and Benjamin has each other by the collar, blood dripping from their knuckles"
+        "Their clothing is covered in dirt and bits of blood"
 
     label living room:
         "You didn't feel it would be appropriate to be in the way of their family matters and decide to head back to the parlor.
@@ -390,62 +392,68 @@ label start:
         Rose "I'm sure there will be a way... Clara won't accept it surely.."
         David "Granma better kick them out of the house.. out of our family. That's the only way to cut ties with em"
         "Rose nods in silence"
-                jump living room
+        "You hear ruckus and decide to head to the scene"
+        "Clarence and Benjamin has each other by the collar, blood dripping from their knuckles"
+        "Their clothing is covered in dirt and bits of blood"
+       
+    "Clara and the maids rush outside to stop the fight."
+    "Benjamin picks himself up from the floor and heads into the house."
     
-    label garden:
-        "Although it would be bad to be in their way, it felt best to stay in case the situation escalates into something worse. You stand off to the side."
-        Benjamin "What's wrong with you? "
-        Clarence "..."
-        Benjamin "Can you even call yourself a father? You abandoned her.. you left her by herself??!"
-        Clarence "I didn't mean to! I just had to get back.."
-        "Clarence looks Benjamin in the eyes"
-        Clarence "I wanted to bring them here,I wanted them to live here with the family. I just needed some time to get ready."
-        Benjamin "Excuses... What kind of a man would leave his family behind."
-        Benjamin "I would never."
-        Benjamin "You're a failure as a father... as a husband as well."
-        "Clarence tenses up"
-        Clarence "And you aren't??"
-        Clarence "You think just because father liked you best, you'd give up on your wife and children."
-        "Benjamin grabs Clarence by the collar"
-        Benjamin "What you mean by that?"
-        "Clarence pushes Benjamin back"
-        Clarence "You didn't send Jackson and Carter to the war because you loved the country. Disregarded Vivian's pleas and broke her heart, all you wanted to do was please Pa."
-        Clarence "I don't want to hear no family advice from you."   
-        "Benjamin raises his fist and punches Clarence in the face, knocking him back."
-        Clarence "You..." 
-        "Clarence looks in disbelief, and gets back up to punch Benjamin"
-        "The two gets into a fight within seconds"     
+    "Indra "
+    # Indra helps Clarence to his room.
+    
+    "Everyone heads back to their rooms, the night ends terribly."
 
-    label kitchen:
-        "You didn't feel it would be appropriate to be in the way of their family matters and head to the kitchen."
-        "Laura and the maids are tending to Indra"
-        Laura "You look awfully thin young miss, have you eaten yet?" 
-        Laura "Would you like some soup with bread?"
-        "Indra looks at Laura with distrust"
-        Indra "... No, thank you"
-        Laura "Well, would you like a cup of tea?"
-        "Indra stares at the door to the garden"
-        Indra "I want to speak with father.."
-        "Stomach growls"
-        "Indra looks down, her face flushed with embarassment."
-        "The maids giggle"
-        Laura "Beth. Anne. Heat up the soup and prepare some bread."
-        
+    # Darkness 
+    # Voice sound for scream
+    "You're awoken by a blood curdling scream and bolt up from your bed."
+    "You put on a coat and head out the door. You see Clarence walking out of his room and run up to him."
+    Detective "What was that? What happened?"
+    Clarence "No idea... Let's head over"
+    "You and Clarence arrive at the corridor by the main stair case where Otis and Clara's room is located."
+    "Beth is on the floor slumped over, her hands shaking."
+    Beth "No... it can't be."
+    
+    "You look over to her."
+    "Fear. Terror. Pure dread."
+    "The look in her eyes is something you'll never forget."
 
-    label living room:
-        "You didn't feel it would be appropriate to be in the way of their family matters and decide to head back to the parlor.
-        "You walk into the parlor and hear David yelling, completely unaware that you had walked in"
-        David "What absurdity.. nonsense.. is this"
-        David "To think that uncle Clarence would commit such shameful acts."
-        Rose "Calm down Dave"
-        "Rose pats David on the back"
-        David "He's bringing shame to our family!! Our reputation ought to be ruined by him"
-        David "We're going to be the laughing stock of the whole town.."
-        Rose "I'm sure there will be a way... Clara won't accept it surely.."
-        David "Granma better kick them out of the house.. out of our family. That's the only way to cut ties with em"
-        "Rose nods in silence"
+    "Clarence walks up to Beth and kneels down."
+    Clarence "What's the matter, Beth?"
+
+    "Beth looks at Clarence."
+    Beth "Master Ben... He..."
+    "She looks over to the open bedroom door and points to it."
+    "Everyone walks into the room."
+    "What horrendous sights. Who could've possibly done something like this?"
+    "How could there be another death in the Smith family? They had barely overcome the grief of losing Otis."
+
+    "Clara slowly makes her way to the main room"
+
+    Clara "What is going on?"
+
+    "Everyone turns to look at Clara."
+
+    Clarence "Mother... No, better for you not to see this."
+    "Clarence walks towards Clara ushering her away, attempting to cover the door frame."
+
+    Clara "I asked what is going on here."
+    Clarence "Ben.. He's..."
+    "Clarence stutters, not able to finish his words."    
+
+    David "He been murdered!"
+
+    "Clara rushes into the room, her eyes wide open"  
+    Clara "NOO!! It can't be!! NOOo...."
+    "Clara breaks down crying and faints."
+
 
     # THIRD DAY
+
+    # Morning
+
+    "Everyone gathers as the lawyer reads out Otis' will. Everyone looks somber."
+
 
     "Everyone has finished eating, now would be a good time to ask around."
     
