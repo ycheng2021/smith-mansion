@@ -214,7 +214,7 @@ label start:
     label dining:
         scene bg dining
         "You head into the dining room."
-        "You see Benjamin sitting alone at the table with newspapers in hand. You gently knock on the door and Benjamin glances over.
+        "You see Benjamin sitting alone at the table with newspapers in hand. You gently knock on the door and Benjamin glances over."
         "He immediately puts down his papers and walks over."
         Benjamin "I have some urgent things I'd like to discuss with you. It's regarding father's death."
         Detective "Whh.. Yes? Did you wish to discuss them at this moment?"
@@ -242,7 +242,7 @@ label start:
 
     label porch:
         scene bg porch
-        "You step out the front door to the porch and look down at the stairs that Otis fell and cracked his head.
+        "You step out the front door to the porch and look down at the stairs that Otis fell and cracked his head."
         "The stairs are so clean and pristine. It's hard to imagine that someone had perished here."
         # Detective looks around for clues.
         "You walk down towards the bottom of the stairs and bend down to take a closer look."
@@ -250,14 +250,14 @@ label start:
         "From the reports you had looked over at the police station, Otis' dead body had remained undiscovered until the next morning."
         "Apparently it was quite normal for Otis to return late or even the next day due to his alcohol addiction"
         "Cause of death had not been confirmed but the officers at the station had already closed the file as accidental death."
-         # More??
+        # More??
         "That's enough for today." 
         "You head back to your room."
     
     label clara_1:
         # scene bg upstairs
         "You walk upstairs looking for Clara. In the hallway, Anne is cleaning some vases" 
-        Detective "Anne, do you know where Clara is?
+        Detective "Anne, do you know where Clara is?"
         Beth "I believe Clara is the family room."
         Detective "Thanks."
         "You head to the family room."
@@ -273,7 +273,6 @@ label start:
         Clara "Enough of me rambling."
 
         "You walk towards the garden where Beth and Anne collecting flowers."
-        ""
 
     label parlor_3:
         scene bg parlor
@@ -319,10 +318,11 @@ label start:
     "Clarence bolts up from his chair and dashes past the maid. Benjamin is surprised but he could tell something important is happening so he follows after Clarence."
     "Benjamin catches up to Clarence in the hallway"
     Benjamin "What's wrong? Why did you stop here?"
-    Clarence,"Indra.. She is ..."
+    Clarence "Indra.. She is ..."
     Benjamin "You know this young lady Indra? I didn't expect you to..."
     Clarence "She's my daughter. I.. didn't think she would follow me to America."
-    "Benjamin grabs his arm and pulls him into the garden.
+    "Benjamin grabs his arm and pulls him into the garden."
+
 
     # Benjamin and Clarence argument
 
@@ -336,7 +336,7 @@ label start:
         "Go to the kitchen":
             jump kitchen
         "Go to the living room":
-            jump living room
+            jump living_room
     
     label garden:
         "Although it would be bad to be in their way, it felt best to stay in case the situation escalates into something worse. You stand off to the side."
@@ -380,8 +380,8 @@ label start:
         "Clarence and Benjamin has each other by the collar, blood dripping from their knuckles"
         "Their clothing is covered in dirt and bits of blood"
 
-    label living room:
-        "You didn't feel it would be appropriate to be in the way of their family matters and decide to head back to the parlor.
+    label living_room:
+        "You didn't feel it would be appropriate to be in the way of their family matters and decide to head back to the parlor."
         "You walk into the parlor and hear David yelling, completely unaware that you had walked in"
         David "What absurdity.. nonsense.. is this"
         David "To think that uncle Clarence would commit such shameful acts."
@@ -399,7 +399,7 @@ label start:
     "Clara and the maids rush outside to stop the fight."
     "Benjamin picks himself up from the floor and heads into the house."
     
-    "Indra "
+    "Indra helps Clarence to his room."
     # Indra helps Clarence to his room.
     
     "Everyone heads back to their rooms, the night ends terribly."
@@ -506,7 +506,7 @@ label start:
         label laura_2:
             Laura "He rarely spoke to the family, and was intensely focused on work."
             Detective "What about his demeanor?"
-            Laura "He seemed more distant than usual. He doesn't involve himself in the daily house affairs so I rarely get the chance to speak with him but father's death... it really shut him off.
+            Laura "He seemed more distant than usual. He doesn't involve himself in the daily house affairs so I rarely get the chance to speak with him but father's death... it really shut him off."
             "He spent way more time at the bars drinking away his grief."
 
 
@@ -520,6 +520,8 @@ label start:
         scene bg parlor
         "You head to the parlor"
  
+
     # This ends the game.
 
     return
+
